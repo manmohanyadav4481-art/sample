@@ -1,0 +1,10 @@
+
+spring:
+  application:
+    name: invoice-service4
+
+  config:
+    import: "configserver:http://localhost:8888"
+
+  profiles:
+    active: dev

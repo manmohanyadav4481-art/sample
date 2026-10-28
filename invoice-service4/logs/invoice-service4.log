@@ -1,0 +1,12 @@
+2026-10-27 12:05:42.137 [RMI TCP Connection(7)-192.168.1.7] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-10-27 12:05:42.157 [RMI TCP Connection(7)-192.168.1.7] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application INVOICE-SERVICE4 with eureka with status DOWN
+2026-10-27 12:05:42.157 [RMI TCP Connection(7)-192.168.1.7] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1793082942157, current=DOWN, previous=UP]
+2026-10-27 12:05:42.158 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_INVOICE-SERVICE4/DESKTOP-DQ0TALK.mshome.net:invoice-service4:8081: registering service...
+2026-10-27 12:05:42.177 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_INVOICE-SERVICE4/DESKTOP-DQ0TALK.mshome.net:invoice-service4:8081 - registration status: 204
+2026-10-27 12:05:42.193 [RMI TCP Connection(7)-192.168.1.7] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-27 12:05:42.198 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2026-10-27 12:05:42.220 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-10-27 12:05:42.223 [RMI TCP Connection(7)-192.168.1.7] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2026-10-27 12:05:42.283 [RMI TCP Connection(7)-192.168.1.7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-27 12:05:42.295 [RMI TCP Connection(7)-192.168.1.7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-10-27 12:05:42.320 [RMI TCP Connection(7)-192.168.1.7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
